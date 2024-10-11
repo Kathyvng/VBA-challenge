@@ -54,7 +54,7 @@ Sub stock_data()
                 
                 ' Calculate the percent change
                 If opening_price <> 0 Then
-                    percent_change = (price_change / opening_price) * 100
+                    percent_change = (price_change / opening_price) * 100 / 100
                 Else
                     percent_change = 0
                 End If
